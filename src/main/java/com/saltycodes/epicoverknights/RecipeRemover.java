@@ -1,14 +1,11 @@
 package com.saltycodes.epicoverknights;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.event.AddReloadListenerEvent;
+import net.minecraft.world.item.crafting.Recipe;
+import net.minecraft.world.item.crafting.RecipeManager;
+import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.world.item.crafting.RecipeManager;
-import net.minecraft.world.item.crafting.Recipe;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,20 +15,27 @@ import java.util.Set;
 public class RecipeRemover {
 
     private static final Set<ResourceLocation> RECIPES_TO_REMOVE = Set.of(
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "copper_stylet"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "diamond_stylet"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "netherite_stylet"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_boots"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_leggings"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_chestplate"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "stechhelm"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_plate"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "small_steel_plate"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_ingot_blasting"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_ingot_to_steel_nuggets"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_nuggets_to_steel_ingot"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "furnace/steel_ingot_blasting"),
-        ResourceLocation.fromNamespaceAndPath("magistuarmory", "furnace/steel_nugget_blasting")
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "bronze_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "copper_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "gold_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "iron_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "silver_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "stone_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "tin_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "diamond_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "netherite_stylet"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_boots"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_leggings"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "jousting_chestplate"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "stechhelm"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_plate"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "small_steel_plate"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_ingot_blasting"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_ingot_to_steel_nuggets"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "steel_nuggets_to_steel_ingot"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "furnace/steel_ingot_blasting"),
+            ResourceLocation.fromNamespaceAndPath("magistuarmory", "furnace/steel_nugget_blasting")
     );
 
     @SubscribeEvent

@@ -2,7 +2,22 @@
   "type": "overgeared:item_to_tooltype",
   "item": [
     {
+      "item": "epicoverknights:bronze_stylet_blade"
+    },
+    {
       "item": "epicoverknights:copper_stylet_blade"
+    },
+    {
+      "item": "epicoverknights:gold_stylet_blade"
+    },
+    {
+      "item": "epicoverknights:iron_stylet_blade"
+    },
+    {
+      "item": "epicoverknights:silver_stylet_blade"
+    },
+    {
+      "item": "epicoverknights:steel_stylet_blade"
     },
     {
       "item": "epicoverknights:tin_stylet_blade"

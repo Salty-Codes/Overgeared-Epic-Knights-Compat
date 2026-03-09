@@ -1,0 +1,30 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "blueprint": [
+    "stylet"
+  ],
+  "requires_blueprint": false,
+  "tier": "iron",
+  "hammering": 3,
+  "has_polishing": true,
+  "has_quality": true,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "minimum_quality": "poor",
+  "need_quenching": true,
+  "needs_minigame": true,
+  "pattern": [
+    "  #",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "item": "epicoverknights:gold_stylet_blade"
+  },
+  "show_notification": true
+}
+
