@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:item_to_tooltype",
+  "item": [
+    {
+      "item": "epicoverknights:bronze_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:copper_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:gold_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:iron_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:silver_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:steel_shortsword_blade"
+    },
+    {
+      "item": "epicoverknights:tin_shortsword_blade"
+    }
+  ],
+  "tooltype": "shortsword"
+}

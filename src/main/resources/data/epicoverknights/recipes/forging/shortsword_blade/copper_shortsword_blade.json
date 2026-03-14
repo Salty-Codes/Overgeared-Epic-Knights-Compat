@@ -1,0 +1,30 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "blueprint": [
+    "shortsword"
+  ],
+  "requires_blueprint": false,
+  "tier": "stone",
+  "hammering": 3,
+  "has_polishing": true,
+  "has_quality": true,
+  "key": {
+    "#": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "minimum_quality": "poor",
+  "need_quenching": true,
+  "needs_minigame": true,
+  "pattern": [
+    "  #",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "epicoverknights:copper_shortsword_blade"
+  },
+  "show_notification": true
+}
+
