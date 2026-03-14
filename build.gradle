@@ -144,7 +144,7 @@ dependencies {
     // Comment out when doing DataGen
     runtimeOnly fg.deobf("maven.modrinth:epic-knights-shields-armor-and-weapons:10.10")
 
-    runtimeOnly fg.deobf("maven.modrinth:overgeared:1.20.1-1.6.16")
+    runtimeOnly fg.deobf("maven.modrinth:overgeared:1.20.1-1.6.20")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
