@@ -108,7 +108,7 @@ by replacing `#` with `x` in the same positions.
 
 | Parameter            | Guidance                                                               |
 |----------------------|------------------------------------------------------------------------|
-| `--hammering`        | Complexity. Simple: 3, Medium: 4, Complex: 5                          |
+| `--hammering`        | Complexity. Simple: 3, Medium: 4, Complex: 5, Very complex (3 ingots): 7 |
 | `--pattern-row1/2/3` | Shape of the 3×3 grid. `#` = hammer strike position.                  |
 
 **Existing patterns for reference:**

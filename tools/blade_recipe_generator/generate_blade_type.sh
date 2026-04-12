@@ -41,6 +41,7 @@ PATTERN_ROW1="  #"
 PATTERN_ROW2="## "
 PATTERN_ROW3=" # "
 WITH_BLADE_FORGING=0
+WITH_3X3_STONE_CRAFTING=0
 SOURCE_BLADE_TYPE="shortsword"
 
 # ---------------------------------------------------------------------------
@@ -78,6 +79,8 @@ Options:
                              Metallic: uses forging_blade_from_blade.json.tpl
                              Stone:    uses crafting_blade_from_blade.json.tpl (replaces knapping)
   --without-blade-forging  Standard forging (ingot only)
+  --with-3x3-stone-crafting  Use crafting_blade_from_blade_3x3.json.tpl for stone blade-from-blade
+                               (full 3x3 pattern with I and # keys; requires --with-blade-forging)
   --source-blade-type <t>  Source blade type for blade-forging/crafting (default: shortsword)
   --include-stone-tooltype Include stone blade in tooltypes    (default: OFF)
   --help                   Show this help
@@ -145,6 +148,7 @@ while [[ $# -gt 0 ]]; do
     --pattern-row3)       PATTERN_ROW3="${2:-}"; shift 2 ;;
     --with-blade-forging)    WITH_BLADE_FORGING=1; shift ;;
     --without-blade-forging) WITH_BLADE_FORGING=0; shift ;;
+    --with-3x3-stone-crafting) WITH_3X3_STONE_CRAFTING=1; shift ;;
     --source-blade-type)     SOURCE_BLADE_TYPE="${2:-}"; shift 2 ;;
     --include-stone-tooltype) TOOLTYPE_INCLUDE_STONE=1; shift ;;
     --help|-h)            usage; exit 0    ;;
@@ -169,7 +173,8 @@ fi
 for tpl in forging.json.tpl casting_blasting.json.tpl casting_furnace.json.tpl \
            casting_smelting.json.tpl knapping_stone.json.tpl crafting.json.tpl \
            smithing.json.tpl tooltypes.json.tpl \
-           forging_blade_from_blade.json.tpl crafting_blade_from_blade.json.tpl; do
+           forging_blade_from_blade.json.tpl crafting_blade_from_blade.json.tpl \
+           crafting_blade_from_blade_3x3.json.tpl; do
   if [[ ! -f "${TEMPLATES_DIR}/${tpl}" ]]; then
     echo "Error: missing template: ${TEMPLATES_DIR}/${tpl}" >&2
     exit 1
@@ -340,9 +345,15 @@ while IFS=$'\t' read -r MATERIAL TIER EXPERIENCE FORGING_KEY_KIND FORGING_KEY_VA
 
   # -- Stone blade-from-blade crafting (replaces knapping when --with-blade-forging)
   if [[ "${WITH_BLADE_FORGING}" -eq 1 && "${MATERIAL}" == "stone" ]]; then
-    render_template \
-      "${TEMPLATES_DIR}/crafting_blade_from_blade.json.tpl" \
-      "${CRAFTING_DIR}/stone_${TYPE}_blade.json"
+    if [[ "${WITH_3X3_STONE_CRAFTING}" -eq 1 ]]; then
+      render_template \
+        "${TEMPLATES_DIR}/crafting_blade_from_blade_3x3.json.tpl" \
+        "${CRAFTING_DIR}/stone_${TYPE}_blade.json"
+    else
+      render_template \
+        "${TEMPLATES_DIR}/crafting_blade_from_blade.json.tpl" \
+        "${CRAFTING_DIR}/stone_${TYPE}_blade.json"
+    fi
   fi
 
 done < "${MATERIALS_FILE}"
