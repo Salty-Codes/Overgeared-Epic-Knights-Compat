@@ -13,7 +13,8 @@ public enum BladeType {
     AHLSPIESS("ahlspiess"),
     BASTARDSWORD("bastardsword"),
     ESTOC("estoc"),
-    CLAYMORE("claymore");
+    CLAYMORE("claymore"),
+    ZWEIHANDER("zweihander");
 
     private final String name;
 

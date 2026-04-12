@@ -70,5 +70,14 @@
   "item.epicoverknights.bronze_claymore_blade": "Bronze Claymore Blade",
   "item.epicoverknights.iron_claymore_blade": "Iron Claymore Blade",
   "item.epicoverknights.steel_claymore_blade": "Steel Claymore Blade",
-  "tooltype.overgeared.claymore": "Claymore"
+  "tooltype.overgeared.claymore": "Claymore",
+  "item.epicoverknights.copper_zweihander_blade": "Copper Zweihander Blade",
+  "item.epicoverknights.gold_zweihander_blade": "Gold Zweihander Blade",
+  "item.epicoverknights.tin_zweihander_blade": "Tin Zweihander Blade",
+  "item.epicoverknights.stone_zweihander_blade": "Stone Zweihander Blade",
+  "item.epicoverknights.silver_zweihander_blade": "Silver Zweihander Blade",
+  "item.epicoverknights.bronze_zweihander_blade": "Bronze Zweihander Blade",
+  "item.epicoverknights.iron_zweihander_blade": "Iron Zweihander Blade",
+  "item.epicoverknights.steel_zweihander_blade": "Steel Zweihander Blade",
+  "tooltype.overgeared.zweihander": "Zweihander"
 }
