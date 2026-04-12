@@ -124,5 +124,14 @@
   "item.epicoverknights.bronze_lucernhammer_blade": "Bronze Lucerne Hammer Blade",
   "item.epicoverknights.iron_lucernhammer_blade": "Iron Lucerne Hammer Blade",
   "item.epicoverknights.steel_lucernhammer_blade": "Steel Lucerne Hammer Blade",
-  "tooltype.overgeared.lucernhammer": "Lucerne Hammer"
+  "tooltype.overgeared.lucernhammer": "Lucerne Hammer",
+  "item.epicoverknights.copper_morgenstern_blade": "Copper Morningstar Blade",
+  "item.epicoverknights.gold_morgenstern_blade": "Gold Morningstar Blade",
+  "item.epicoverknights.tin_morgenstern_blade": "Tin Morningstar Blade",
+  "item.epicoverknights.stone_morgenstern_blade": "Stone Morningstar Blade",
+  "item.epicoverknights.silver_morgenstern_blade": "Silver Morningstar Blade",
+  "item.epicoverknights.bronze_morgenstern_blade": "Bronze Morningstar Blade",
+  "item.epicoverknights.iron_morgenstern_blade": "Iron Morningstar Blade",
+  "item.epicoverknights.steel_morgenstern_blade": "Steel Morningstar Blade",
+  "tooltype.overgeared.morgenstern": "Morningstar"
 }

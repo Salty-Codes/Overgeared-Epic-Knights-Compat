@@ -19,7 +19,8 @@ public enum BladeType {
     CONCAVEHALBERD("concavehalberd"),
     HEAVYMACE("heavymace"),
     HEAVYWARHAMMER("heavywarhammer"),
-    LUCERNHAMMER("lucernhammer");
+    LUCERNHAMMER("lucernhammer"),
+    MORGENSTERN("morgenstern");
 
     private final String name;
 

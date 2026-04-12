@@ -2,11 +2,11 @@
   "type": "overgeared:forging",
   "category": "misc",
   "blueprint": [
-    "heavywarhammer"
+    "morgenstern"
   ],
   "requires_blueprint": false,
   "tier": "stone",
-  "hammering": 6,
+  "hammering": 5,
   "has_polishing": true,
   "has_quality": true,
   "key": {
@@ -18,12 +18,12 @@
   "need_quenching": true,
   "needs_minigame": true,
   "pattern": [
-    "## ",
+    " # ",
     "# #",
-    "#  "
+    "   "
   ],
   "result": {
-    "item": "epicoverknights:tin_heavywarhammer_blade"
+    "item": "epicoverknights:tin_morgenstern_blade"
   },
   "show_notification": true
 }

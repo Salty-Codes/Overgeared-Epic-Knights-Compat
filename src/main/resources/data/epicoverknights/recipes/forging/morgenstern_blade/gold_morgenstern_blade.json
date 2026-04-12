@@ -2,28 +2,28 @@
   "type": "overgeared:forging",
   "category": "misc",
   "blueprint": [
-    "heavywarhammer"
+    "morgenstern"
   ],
   "requires_blueprint": false,
-  "tier": "stone",
-  "hammering": 6,
+  "tier": "iron",
+  "hammering": 5,
   "has_polishing": true,
   "has_quality": true,
   "key": {
     "#": {
-      "tag": "forge:ingots/tin"
+      "tag": "forge:ingots/gold"
     }
   },
   "minimum_quality": "poor",
   "need_quenching": true,
   "needs_minigame": true,
   "pattern": [
-    "## ",
+    " # ",
     "# #",
-    "#  "
+    "   "
   ],
   "result": {
-    "item": "epicoverknights:tin_heavywarhammer_blade"
+    "item": "epicoverknights:gold_morgenstern_blade"
   },
   "show_notification": true
 }
