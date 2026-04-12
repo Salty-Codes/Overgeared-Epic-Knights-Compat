@@ -1,0 +1,15 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "epicoverknights:stone_lochaberaxe_blade"
+    },
+    {
+      "item": "magistuarmory:pole"
+    }
+  ],
+  "result": {
+    "item": "magistuarmory:stone_lochaberaxe"
+  }
+}

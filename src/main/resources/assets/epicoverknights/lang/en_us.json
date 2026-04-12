@@ -79,5 +79,14 @@
   "item.epicoverknights.bronze_zweihander_blade": "Bronze Zweihander Blade",
   "item.epicoverknights.iron_zweihander_blade": "Iron Zweihander Blade",
   "item.epicoverknights.steel_zweihander_blade": "Steel Zweihander Blade",
-  "tooltype.overgeared.zweihander": "Zweihander"
+  "tooltype.overgeared.zweihander": "Zweihander",
+  "item.epicoverknights.copper_lochaberaxe_blade": "Copper Lochaber Axe Blade",
+  "item.epicoverknights.gold_lochaberaxe_blade": "Gold Lochaber Axe Blade",
+  "item.epicoverknights.tin_lochaberaxe_blade": "Tin Lochaber Axe Blade",
+  "item.epicoverknights.stone_lochaberaxe_blade": "Stone Lochaber Axe Blade",
+  "item.epicoverknights.silver_lochaberaxe_blade": "Silver Lochaber Axe Blade",
+  "item.epicoverknights.bronze_lochaberaxe_blade": "Bronze Lochaber Axe Blade",
+  "item.epicoverknights.iron_lochaberaxe_blade": "Iron Lochaber Axe Blade",
+  "item.epicoverknights.steel_lochaberaxe_blade": "Steel Lochaber Axe Blade",
+  "tooltype.overgeared.lochaberaxe": "Lochaber Axe"
 }

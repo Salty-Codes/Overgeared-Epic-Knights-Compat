@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:item_to_tooltype",
+  "item": [
+    {
+      "item": "epicoverknights:copper_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:tin_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:bronze_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:iron_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:gold_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:silver_lochaberaxe_blade"
+    },
+    {
+      "item": "epicoverknights:steel_lochaberaxe_blade"
+    }
+  ],
+  "tooltype": "lochaberaxe"
+}

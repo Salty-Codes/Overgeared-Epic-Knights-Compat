@@ -2,31 +2,28 @@
   "type": "overgeared:forging",
   "category": "misc",
   "blueprint": [
-    "zweihander"
+    "lochaberaxe"
   ],
   "requires_blueprint": false,
-  "tier": "stone",
-  "hammering": 6,
+  "tier": "iron",
+  "hammering": 5,
   "has_polishing": true,
   "has_quality": true,
   "key": {
-    "I": {
-      "tag": "forge:ingots/bronze"
-    },
     "#": {
-      "item": "epicoverknights:bronze_shortsword_blade"
+      "item": "overgeared:heated_iron_ingot"
     }
   },
   "minimum_quality": "poor",
   "need_quenching": true,
   "needs_minigame": true,
   "pattern": [
-    "  I",
-    "I# ",
-    " I "
+    "## ",
+    "#  ",
+    "   "
   ],
   "result": {
-    "item": "epicoverknights:bronze_zweihander_blade"
+    "item": "epicoverknights:iron_lochaberaxe_blade"
   },
   "show_notification": true
 }

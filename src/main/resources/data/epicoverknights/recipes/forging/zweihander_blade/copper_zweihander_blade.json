@@ -6,7 +6,7 @@
   ],
   "requires_blueprint": false,
   "tier": "stone",
-  "hammering": 7,
+  "hammering": 6,
   "has_polishing": true,
   "has_quality": true,
   "key": {
