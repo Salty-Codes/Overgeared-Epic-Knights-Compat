@@ -20,7 +20,8 @@ public enum BladeType {
     HEAVYMACE("heavymace"),
     HEAVYWARHAMMER("heavywarhammer"),
     LUCERNHAMMER("lucernhammer"),
-    MORGENSTERN("morgenstern");
+    MORGENSTERN("morgenstern"),
+    GUISARME("guisarme");
 
     private final String name;
 

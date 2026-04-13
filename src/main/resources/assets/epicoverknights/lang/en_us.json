@@ -134,5 +134,14 @@
   "item.epicoverknights.iron_morgenstern_blade": "Iron Morningstar Blade",
   "item.epicoverknights.steel_morgenstern_blade": "Steel Morningstar Blade",
   "tooltype.overgeared.morgenstern": "Morningstar",
-  "tooltype.overgeared.chainmorgenstern": "Flail"
+  "tooltype.overgeared.chainmorgenstern": "Flail",
+  "item.epicoverknights.copper_guisarme_blade": "Copper Guisarme Blade",
+  "item.epicoverknights.gold_guisarme_blade": "Gold Guisarme Blade",
+  "item.epicoverknights.tin_guisarme_blade": "Tin Guisarme Blade",
+  "item.epicoverknights.stone_guisarme_blade": "Stone Guisarme Blade",
+  "item.epicoverknights.silver_guisarme_blade": "Silver Guisarme Blade",
+  "item.epicoverknights.bronze_guisarme_blade": "Bronze Guisarme Blade",
+  "item.epicoverknights.iron_guisarme_blade": "Iron Guisarme Blade",
+  "item.epicoverknights.steel_guisarme_blade": "Steel Guisarme Blade",
+  "tooltype.overgeared.guisarme": "Guisarme"
 }
