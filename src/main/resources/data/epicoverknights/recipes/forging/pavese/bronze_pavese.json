@@ -7,7 +7,7 @@
     "P": { "item": "epicoverknights:bronze_plate" },
     "S": { "item": "magistuarmory:wood_pavese" }
   },
-  "need_quenching": true,
+  "need_quenching": false,
   "needs_minigame": true,
   "pattern": [
     " P ",

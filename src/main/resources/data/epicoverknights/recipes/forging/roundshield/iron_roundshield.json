@@ -7,7 +7,7 @@
     "P": { "item": "overgeared:iron_plate" },
     "S": { "item": "magistuarmory:wood_roundshield" }
   },
-  "need_quenching": true,
+  "need_quenching": false,
   "needs_minigame": true,
   "pattern": [
     " P ",

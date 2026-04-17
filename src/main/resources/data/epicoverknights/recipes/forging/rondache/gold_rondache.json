@@ -7,7 +7,7 @@
     "P": { "item": "epicoverknights:gold_plate" },
     "S": { "item": "magistuarmory:wood_rondache" }
   },
-  "need_quenching": true,
+  "need_quenching": false,
   "needs_minigame": true,
   "pattern": [
     "PPP",
