@@ -7,7 +7,7 @@ issueTrackerURL="https://github.com/Salty-Codes/Overgeared-Epic-Knights-Compat/i
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-#logoFile="epicoverknights.png"
+logoFile="overgeared_epic_knights.png"
 authors="${mod_authors}"
 description='''${mod_description}'''
 
