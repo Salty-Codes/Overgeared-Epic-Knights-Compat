@@ -80,5 +80,5 @@ As a result, a large number of JSON files had to be written by hand.
 A process that is highly repetitive, time-consuming, and error-prone.
 
 For this reason, I used Claude Code to assist with generating the JSON. 
-My own work on every item (and every material per item) still involved creating the blade or component texture, registering it, and designing the forging recipe.
+**My own work** on every item (and every material per item) still involved creating the blade or component texture, registering it, and designing the forging recipe.
 The AI handled the mechanical transcription work in between.
